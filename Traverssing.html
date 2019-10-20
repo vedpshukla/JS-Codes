@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Traversing | DOM Traversing</title>
+  </head>
+  <body>
+    <p id="para">I am Paragraph</p>
+    <span id="spn">I am a Span tag</span>
+    <select id="country">
+      <option>--select--</option>
+      <option>India</option>
+      <option>China</option>
+    </select>
+    <ul id="snacks">
+      <li>Dosa</li>
+      <li>Chai</li>
+      <li>Samosa</li>
+    </ul>
+   <button onclick="find();">Find or Traverse</button>
+  </body>
+  <script>
+  function find()
+  {
+    // alert("hi")
+    alert(document.getElementById("para"));
+    alert(document.getElementById("spn"));
+    alert(document.getElementById("country"));
+    alert(document.getElementById("snacks"));
+  }
+  </script>
+</html>
